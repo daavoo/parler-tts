@@ -20,6 +20,7 @@ import setuptools
 _deps = [
     "transformers>=4.46.1,<=4.46.1",
     "torch",
+    "descript-audiotools @ git+https://github.com/descriptinc/descript-audio-codec
 ]
 
 _extras_dev_deps = [
